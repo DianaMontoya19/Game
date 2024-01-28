@@ -15,12 +15,12 @@ public class Vida : MonoBehaviour
         
           
 
-      //if (other.gameObject.CompareTag("Bloque"))
-      //{
+      if (other.gameObject.CompareTag("Bloque"))
+      {
            
 
-            //imagen[conta].fillAmount = 0;
-            //conta++;
+            imagen[conta].fillAmount = 0;
+            conta++;
 
             //Debug.Log("contador" + conta);
 
@@ -34,7 +34,7 @@ public class Vida : MonoBehaviour
             //}
 
 
-        //}
+        }
             
         
     }
